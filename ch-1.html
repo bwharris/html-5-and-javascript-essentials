@@ -110,6 +110,34 @@
                 //  Draw a pattern filled rectangle
                 context.fillRect(420, 240, 130, 50);
 
+                //  DRAWING IMAGES
+                //  Get a handle to the Image object
+                var image = document.getElementById("spaceship");
+                //  Draw the image at (0, 350)
+                context.drawImage(image, 0, 350);
+                //  Scale the image to half the original size
+                context.drawImage(image, 0, 400, 100, 25);
+                //  Draw part of the image
+                context.drawImage(image, 0, 0, 60, 50, 0, 420, 60, 50);
+
+                //  ROTATION AND TRANSLATION
+                //  Translate origin to location of object
+                context.translate(250, 370);
+                //  Rotate about the new origin by 60 degrees
+                context.rotate(Math.PI / 3);
+                context.drawImage(image, 0, 0, 60, 50, -30, -25, 60, 50);
+                //  Restore to original state by rotating and translating back
+                context.rotate(-Math.PI / 3);
+                context.translate(-240, -370);
+                //  Translate origin to location of object
+                context.translate(300, 370);
+                //  Rotate about the new origin
+                context.rotate(3 * Math.PI / 4);
+                context.drawImage(image, 0, 0, 60, 50, -30, -25, 60, 50);
+                //  Restore to original state by rotating and translating back
+                context.rotate(-3 * Math.PI / 4);
+                context.translate(-300, -370);
+
                 // alert("Hello World!");
             }
         </script>
@@ -119,5 +147,6 @@
             Your browser does not support HTML5 Canvas. Please shift to a newer browser.
         </canvas>
         <img src="fire.png" id="fire">
+        <img src="spaceship.png" id="spaceship">
     </body>
 </html>
