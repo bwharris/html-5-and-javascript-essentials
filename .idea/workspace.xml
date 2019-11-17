@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c39bc7-777c-4fee-98f6-000548f29c8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch-1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+            <state relative-caret-position="588">
+              <caret line="150" selection-start-line="150" selection-end-line="152" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -54,7 +54,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="990" />
+    <option name="x" value="1276" />
+    <option name="y" value="308" />
     <option name="width" value="1978" />
     <option name="height" value="1798" />
   </component>
@@ -120,15 +121,15 @@
       <workItem from="1569971077357" duration="2580000" />
       <workItem from="1570731707957" duration="905000" />
       <workItem from="1572906797113" duration="1342000" />
-      <workItem from="1574008920480" duration="888000" />
+      <workItem from="1574008920480" duration="2246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14498000" />
+    <option name="totallyTimeSpent" value="15856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="495" y="0" width="989" height="899" extended-state="0" />
+    <frame x="638" y="154" width="989" height="899" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16863587" />
@@ -158,8 +159,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ch-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+        <state relative-caret-position="588">
+          <caret line="150" selection-start-line="150" selection-end-line="152" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
